@@ -1,0 +1,322 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8428535899,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "verifyProductAddedToShoppingCartSuccessFully",
+        "description": "",
+        "id": "desktops-page-test;verifyproductaddedtoshoppingcartsuccessfully",
+        "after": [
+          {
+            "result": {
+              "duration": 156499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72488499,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on homepage",
+            "match": {
+              "location": "DesktopsPageSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191894401,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I mouse hover on Desktops",
+            "match": {
+              "location": "DesktopsPageSteps.iMouseHoverOnDesktops()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1162528701,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on \"Show All Desktops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Show All Desktops",
+                  "offset": 12
+                }
+              ],
+              "location": "DesktopsPageSteps.iClickOn(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 387237001,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select Sort By position \"Name (A - Z)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Name (A - Z)",
+                  "offset": 27
+                }
+              ],
+              "location": "DesktopsPageSteps.iSelectSortByPosition(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1171332800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select product \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 18
+                }
+              ],
+              "location": "DesktopsPageSteps.iSelectProduct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40679400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I verify the Text \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 19
+                }
+              ],
+              "location": "DesktopsPageSteps.iVerifyTheText(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8473851001,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I select Delivery Date 2022-11-30 onproduct page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022",
+                  "offset": 23
+                },
+                {
+                  "val": "11",
+                  "offset": 28
+                },
+                {
+                  "val": "30",
+                  "offset": 31
+                }
+              ],
+              "location": "DesktopsPageSteps.iSelectDeliveryDateOnproductPage(int,int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175051800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter Qty \"1\" using Select class.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 13
+                }
+              ],
+              "location": "DesktopsPageSteps.iEnterQtyUsingSelectClass(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51797000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click on “Add to Cart” button",
+            "match": {
+              "location": "DesktopsPageSteps.iClickOnAddToCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595265399,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify the Message \"Success: You have added HP LP3065 to your shopping cart!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Success: You have added HP LP3065 to your shopping cart!",
+                  "offset": 22
+                }
+              ],
+              "location": "DesktopsPageSteps.iVerifyTheMessage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1420877500,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on link “shopping cart” display into success message",
+            "match": {
+              "location": "DesktopsPageSteps.iClickOnLinkShoppingCartDisplayIntoSuccessMessage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19721700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I verify the text \"Shopping Cart\" on shopingcart page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shopping Cart",
+                  "offset": 19
+                }
+              ],
+              "location": "DesktopsPageSteps.iVerifyTheTextOnShopingcartPage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23765800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I verify the Product name \"HP LP3065\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "HP LP3065",
+                  "offset": 27
+                }
+              ],
+              "location": "DesktopsPageSteps.iVerifyTheProductName(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46194000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I verify the Delivery Date \"2022-11-30\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2022-11-30",
+                  "offset": 28
+                }
+              ],
+              "location": "DesktopsPageSteps.iVerifyTheDeliveryDateIsDisplayed(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31770899,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I verify the Model \"Product21\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product21",
+                  "offset": 20
+                }
+              ],
+              "location": "DesktopsPageSteps.iVerifyTheModel(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23672500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I verify the Total \"£74.73\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "£74.73",
+                  "offset": 20
+                }
+              ],
+              "location": "DesktopsPageSteps.iVerifyTheTotal(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Desktops Page Test",
+    "description": "",
+    "id": "desktops-page-test",
+    "keyword": "Feature",
+    "uri": "desktops.feature"
+  }
+]
